@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="2" parallel="tests" name="Suite">
+	<test name="TestRunner-chrome">
+		<parameter name="BROWSER" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.orangehrm_automation.createcontact_testcases.CreateContactInCrmTest" />
+			<class
+				name="com.orangehrm_automation.createorganization_testcases.CreateOrganizationInCrmTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="TestRunner-firefox">
+		<parameter name="BROWSER" value="firefox"></parameter>
+		<classes>
+			<class
+				name="com.orangehrm_automation.createcontact_testcases.CreateContactInCrmTest" />
+			<class
+				name="com.orangehrm_automation.createorganization_testcases.CreateOrganizationInCrmTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]">
+  <test thread-count="2" parallel="tests" name="TestRunner-firefox(failed)">
+    <parameter name="BROWSER" value="firefox"/>
+    <classes>
+      <class name="com.orangehrm_automation.createorganization_testcases.CreateOrganizationInCrmTest">
+        <methods>
+          <include name="closeDbConnection"/>
+          <include name="createNewOrg"/>
+          <include name="connectToDataBase"/>
+          <include name="closeBrowser"/>
+          <include name="logoutFromApplication"/>
+          <include name="loginToApplication"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.orangehrm_automation.createorganization_testcases.CreateOrganizationInCrmTest -->
+      <class name="com.orangehrm_automation.createcontact_testcases.CreateContactInCrmTest">
+        <methods>
+          <include name="closeDbConnection"/>
+        </methods>
+      </class> <!-- com.orangehrm_automation.createcontact_testcases.CreateContactInCrmTest -->
+    </classes>
+  </test> <!-- TestRunner-firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
