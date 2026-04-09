@@ -24,6 +24,9 @@ public class HomePage {
 	@FindBy(linkText = "Contacts")
 	private WebElement clickContacts;
 
+	@FindBy(linkText = "Products")
+	private WebElement clickonProducts;
+
 	@FindBy(linkText = "Campaigns")
 	private WebElement clickcampaigns;
 
@@ -35,6 +38,10 @@ public class HomePage {
 
 	public WebElement getClickOrganization() {
 		return clickOrganization;
+	}
+
+	public WebElement getClickonProducts() {
+		return clickonProducts;
 	}
 
 	public WebElement getClickContacts() {
