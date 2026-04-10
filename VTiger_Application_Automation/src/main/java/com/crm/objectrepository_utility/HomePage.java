@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 //Class Name and Page Name Should be Same
 public class HomePage {
 
-	WebDriver driver;
+	WebDriver driver; 
 
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
