@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.orangehrm_automation.createorganization_testcases.CreateOrganizationInCrmTest">
+      <class name="com.orangehrm_automation.createcontact_testcases.CreateContactInCrmTest">
         <methods>
+          <include name="createContactTest"/>
           <include name="closeDbConnection"/>
-          <include name="createNewOrg"/>
           <include name="connectToDataBase"/>
           <include name="closeBrowser"/>
           <include name="logoutFromApplication"/>
           <include name="loginToApplication"/>
           <include name="launchBrowser"/>
         </methods>
-      </class> <!-- com.orangehrm_automation.createorganization_testcases.CreateOrganizationInCrmTest -->
+      </class> <!-- com.orangehrm_automation.createcontact_testcases.CreateContactInCrmTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -39,7 +39,7 @@ public class BaseClass {
 
 	@BeforeSuite
 	public void connectToDataBase() throws ClassNotFoundException {
-		dbUtil.getDBConnection();
+		//dbUtil.getDBConnection();
 	}
 
 	//@Parameters("BROWSER") //Cross Browser Test
